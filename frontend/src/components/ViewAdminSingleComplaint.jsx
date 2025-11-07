@@ -51,7 +51,7 @@ const ViewAdminSingleComplaint = () => {
   const handleUpdateDepartment = async () => {
     
     try {
-      const response = axios("http://localhost:3000/api/admin/update-department", "PUT", "")
+      const response = axios("https://fixmycity-m8j7.onrender.com/api/admin/update-department", "PUT", "")
     } catch (error) {
       
     }
